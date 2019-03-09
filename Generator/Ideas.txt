@@ -1,0 +1,1 @@
+Print out analytics of each character being used and its frequency
