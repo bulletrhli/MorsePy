@@ -8,16 +8,17 @@ and know how to run this program elsewhere and create the same result expected, 
 
 This is very easy to use, open Generation.py with IDLE and run the script. The shell will open and you can use the following command to generate your morse files.
 
-Generation.do_all(Generation, WPM, ERRORS)
+Generation.do_all(Generation, minWPM, maxWPM, ERRORS, REPEAT)
 
 The only two things you can change are WPM and ERRORS. The following values are valid:
 
 WPM: 5-15
 ERRORS: True/False
+REPEAT: Number of times to create each WPM selected
 
 It is pretty self explanitory, but I will provide an example.
 
-Generation.do_all(Generation, 7, False)
+Generation.do_all(Generation, 5, 15, False, 1)
 
 This will generate a text document answer sheet and the accompanied morse audio file with a very easily understood file name. In this case they would as follows:
 
